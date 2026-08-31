@@ -1,0 +1,4 @@
+conda activate xai-tf
+python -m pip install --upgrade pip
+python -m pip install tensorflow tf-explain matplotlib ipykernel
+python -m ipykernel install --user --name xai-tf --display-name "Python (xai-tf)"
